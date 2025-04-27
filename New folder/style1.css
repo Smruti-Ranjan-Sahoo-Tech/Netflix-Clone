@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.item1 {
+    width: 100vw;
+    height: 830px;
+    background-image: url(bg.jpg);
+    background-position: center center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: max(1466x, 100vw);
+
+    /* position: relative;
+    top: 0px; */
+    /* grid-area: item1; */
+    box-sizing: border-box;
+
+
+}
+.bb {
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    height: inherit;
+    background-color: rgb(0, 0, 0);
+    opacity: .60;
+    position: absolute;
+    top: 0px;
+
+}
+nav {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    position: relative;
+    top: 28px;
+    z-index: 10;
+
+
+}
+.bt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.btn {
+    background-color: rgba(255, 216, 216, 0);
+    border: 1px solid white;
+    color: white;
+    padding: 3px 4px;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 11px;
+}
+.redbtn {
+    background-color: red;
+    color: black;
+}
+.emailin input {
+    font-size: 17px;
+    padding: 8.4px 90px;
+    background-color: rgba(31, 5, 5, 0.418);
+    border: .4px solid rgba(255, 255, 255, 0.215);
+    color: white;
+    font-weight: 700;
+}
+.redbtn2 {
+    background-color: red;
+    font-size: 20.5px;
+    padding: 7px 44px;
+    color: rgb(243, 239, 239);
+}
+
+.mainbox {
+    width: 90%;
+    height: 95%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    padding: 0 5%;
+}
+
+.mainbox> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.mainbox> :nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+
+.mainbox> :nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+.partition{
+    background-color: gray;
+    width: 100vw;
+    height: 5px;
+    position: relative;
+    /* top: 779px; */
+    z-index: 11;
+}
+.item2 {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+   
+    /* display: flex; */
+    padding: 5vw 0;
+    gap: 5px;
+    position: relative;
+    /* top: 835px; */
+
+}
+.i2box {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.i2box>div {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 19px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.i2box>div :nth-child(1) {
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.i2box>div :nth-child(2) {
+    font-size: 45px;
+
+}
+.imgvdo {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+.imgvdo img {
+    position: absolute;
+    width: 485px;
+    z-index: 8;
+  /* top: 100px; */
+}
+.imgvdo video{
+    position: relative;
+    width: 400px;
+    top: -9px;
+    right: -16px;
+}
+.item3 {
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+   
+    /* display: flex; */
+    padding: 5vw 0;
+    gap: 5px;
+    /* position: relative; */
+   
+
+}
+.i3box {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+ .imgvdo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.i3box div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+    align-items: center;
+    color: white;
+}
+
+.i3box span:nth-child(1) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.i3box span:nth-child(2) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 900;
+}
+.i4box .imgvdo3 img{
+ width: 550px;
+}
+.i4box .imgvdo3 video{
+
+ width: 348px;
+ top: -86px;
+ right: 10px;
+}
+.faqbox{
+    background-color: rgb(45, 45, 45);;
+}
+.faqbox svg {
+    filter: invert(1);    
+}
+.faqbox{
+    transition-property:all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+    transition-delay: 1ms;
+    font-size: 24px;
+    width: 66vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:4px 18px ;
+    cursor: pointer;
+
+
+}
+/* .item6:hover{
+    background-color: aqua;
+} */
+.faqbox:hover{
+    background-color: #414141;
+}
+.item6 h2{
+   text-align: center;
+   font-size: 40px;
+}
+.item6{
+    padding: 4vh 0;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+
+/* cursor: pointer; */
+}
+.questions{
+color: white;
+padding: 34px 0;
+}
+footer{
+    background-color: black;
+    max-width: 66vw;
+    margin: auto;
+    padding: 60px;
+   
+    padding: 34px;
+}
+.footer{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    gap: 70px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-item a{
+    color: white;
+}
+@media screen and (max-width:1300px){
+
+    nav{
+
+        width: 90vw;
+        margin: auto;
+    }
+    
+    .i2box{
+         flex-wrap: wrap;
+         gap: 7vh;
+    }
+    .i2box>div :nth-child(1) {
+        font-size: 2rem;
+       
+    }
+    
+    
+    .i2box>div :nth-child(2) {
+        font-size: 1.125rem;
+    
+    }
+    .imgvdo img {
+        
+        width: 100%;
+        
+    }
+    .imgvdo video{
+        width: 80%;
+        position: relative;
+        top: -9px;
+        right: -16px;
+    }
+    .i3box {
+         flex-wrap: wrap; 
+       
+    }
+     .imgvdo2 img{
+       width: 100%;
+    }
+    .i3box span:nth-child(1) {
+        
+        font-size: 2rem;
+    }
+    
+    .i3box span:nth-child(2) {
+        
+        font-size: 1.125rem;
+    }
+    .i4box .imgvdo3 img{
+        width: 100%;
+       }
+    .imgvdo3 video{
+        width: 80%;
+    }
+    .i4box .imgvdo3 video{
+
+        width: 70%;
+        top: -49px;
+        right: 0px;
+       }
+       .footer{
+    
+        
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        
+    }
+}
